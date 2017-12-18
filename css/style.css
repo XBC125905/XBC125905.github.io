@@ -1,0 +1,175 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.left {
+    height: 635px;
+    background-color: rgba(70, 37, 119, 0.8);
+    width: 310px;
+    float: left;
+    position: fixed;
+    padding-top: 100px;
+    z-index: 99;
+}
+.left .left_content {
+    width: 220px;
+    height: 50px;
+    margin:0 auto;
+    margin-top: 20px;
+    border-bottom: 2px solid #3d2d63;
+    z-index: 99;
+}
+.left .left_content span {
+    line-height: 50px;
+    color: white;
+    font-family: "Microsoft YaHei";
+    float: right;
+    font-size: 14px;
+    letter-spacing: 5px;
+    cursor: pointer;
+}
+
+.right {
+    width: 1039px;
+    height: 2740px;
+    background-color: rgba(57, 139, 134, 0.98);
+    float: right;
+    box-sizing: inherit;
+}
+.right .right_top {
+    width: 1039px;
+    height: 635px;
+    background-color: rgba(68, 15, 119, 0.8);
+    position: relative;
+}
+.right .right_top .logo_content{
+    width: 1039px;
+    height: 635px;
+    background-color: #77000b;
+    position: absolute;
+    left:1039px;
+}
+.right .right_top .head_content {
+    width: 700px;
+    height: 580px;
+    position: absolute;
+    top: 25px;
+    left: 20px;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.right .right_top .head_content h1{
+    font-size: 40px;
+    color: white;
+    font-family: "Microsoft YaHei";
+    font-weight:900;
+    letter-spacing: 12px;
+}
+.right .right_top .head_content hr {
+    width: 600px;
+    margin-top: 30px;
+    margin-left: 3px;
+}
+.right .right_top .head_content p {
+    font-size: 20px;
+    font-family: "Microsoft YaHei";
+    color: white;
+    margin-right: 100px;
+    margin-top: 40px;
+    line-height: 40px;
+}
+.right .right_top .head_content p span {
+    letter-spacing: 10px;
+    font-size: 25px;
+    font-family: "Bauhaus 93";
+}
+.right .right_top .head_more {
+    width: 260px;
+    height: 400px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 160px;
+    border-left:1px solid white;
+}
+.right .right_top .head_more .btn_more {
+    width: 70px;
+    height: 70px;
+    border: none;
+    border-radius:100%;
+    margin-top:150px;
+    margin-left: 80px;
+    color: rgba(87, 252, 247, 0.7);
+    font-size: 20px;
+    background: rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+.right .right_center {
+    width: 1039px;
+    height: 635px;
+    background-color: rgba(99, 64, 119, 0.8);
+    position: relative;
+}
+.right .right_center .html_content {
+    width: 1039px;
+    height: 635px;
+    background-color: #1b770d;
+    position: absolute;
+    left:1039px;
+    top: 0px;
+}
+.right .right_css {
+    width: 1039px;
+    height: 635px;
+    background-color: rgba(119, 0, 53, 0.8);
+    position: relative;
+}
+.right .right_css .css_content{
+    width: 1039px;
+    height: 635px;
+    background-color: #006777;
+    position: absolute;
+    left:1039px;
+    top: 0px;
+}
+.right .right_js {
+    width: 1039px;
+    height: 635px;
+    background-color: rgba(32, 119, 107, 0.8);
+    position: relative;
+}
+.right .right_js .js_content {
+    width: 1039px;
+    height: 635px;
+    background-color: #1b770d;
+    position: absolute;
+    left:1039px;
+    top: 0px;
+}
+.right .right_bottom {
+    width: 1039px;
+    height: 200px;
+    background-color: rgba(119, 5, 81, 0.8);
+}
+.right .right_bottom  img{
+    width: 35px;
+    height: 35px;
+}
+.right .right_bottom .logo{
+    width: 800px;
+    height: 200px;
+    margin: 0 auto;
+}
+.right .right_bottom .logo ul {
+    list-style: none;
+    line-height: 200px;
+    margin-left: 220px;
+}
+.right .right_bottom .logo ul li {
+    float: left;
+    margin-right: 40px;
+}
